@@ -1,0 +1,12 @@
+{
+  "name": "only-js-game",
+  "version": "1.0.0",
+  "description": "Simple JS Game",
+  "main": "index.js",
+  "scripts": {
+    "build": "nodemon main"
+  },
+  "keywords": [],
+  "author": "Stefan Focht",
+  "license": "ISC"
+}
