@@ -1,0 +1,15 @@
+{
+    "name": "snakephaser",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/main.js.js",
+    "scripts": {
+        "start": "nodemon main"
+    },
+    "keywords": [],
+    "author": "stefan focht",
+    "license": "ISC",
+    "devDependencies": {
+        "jshint": "2.13.6"
+    }
+}
