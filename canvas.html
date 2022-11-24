@@ -1,23 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Snake</title>
-    <style>
-        body{
-            display: flex;
-            justify-content: center;
-            margin-top: 50px;
-        }
-        #canvas{
-            border: 1px solid black;
-        }
-    </style>
-</head>
-<body>
-    <canvas id="canvas" width="500" height="500"></canvas>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="radiogroup">
+      <div class="wrapper">
+        <input class="state" type="radio" name="app" id="a" value="a" />
+        <label class="label" for="a">
+          <div class="indicator"></div>
+          <span class="text" id="active">Play</span>
+        </label>
+      </div>
+      <div class="wrapper">
+        <input class="state" type="radio" name="app" id="b" value="a" />
+        <label class="label" for="a">
+          <div class="indicator"></div>
+          <span class="text" id="pause">Pause</span>
+        </label>
+      </div>
+      <div class="wrapper">
+        <input class="state" type="radio" name="app" id="c" value="a" />
+        <label class="label" for="a">
+          <div class="indicator"></div>
+          <span class="text" id="stop">Stop</span>
+        </label>
+      </div>
+    </div>
+    <canvas id="canvas" width="500" height="500"> </canvas>
+
     <script src="canvas.js"></script>
-</body>
+  </body>
 </html>
